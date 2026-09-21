@@ -12,3 +12,5 @@ RAP-based Business Partner Management app (Customers, Suppliers, Employees) with
 - ZUDEMY_01_ADMIN_DATA: This structure defines common administrative/audit fields (created_by, created_on, changed_by, changed_on) that are reused across multiple tables using INCLUDE, avoiding field duplication.
 ### Tables
 - Business partner, product, sale orders, sale order items' tables needed.
+- Connection BP table with SO table: the foreign key buyer-bp_id allows 1 customer can make many orders, but 1 order can't have many customers.
+- Connection products table with SO_I table: 1 product can be sold in many orders, but each order line can only belong to 1 product.
