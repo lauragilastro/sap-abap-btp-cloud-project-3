@@ -10,3 +10,5 @@ RAP-based Business Partner Management app (Customers, Suppliers, Employees) with
 - ZUDEMY_01_DE_ROLE
 ### Structure
 - ZUDEMY_01_ADMIN_DATA: This structure defines common administrative/audit fields (created_by, created_on, changed_by, changed_on) that are reused across multiple tables using INCLUDE, avoiding field duplication.
+### Tables
+- Business partner and product's tables needed.
